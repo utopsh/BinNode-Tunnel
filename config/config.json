@@ -1,0 +1,16 @@
+{
+    "net_id": "my_private_net_001",
+    "net_password": "abcd1234",
+    "hostname": "node_apple_gz",
+    "tun_server": "tun.oiiex.com",
+    "tun_server_port": 2080,
+    "webserver_port": 9000,
+    "bind_port_range": "2000-3000",
+    "services": [
+        {
+            "service_name": "ssh",
+            "service_ip": "127.0.0.1",
+            "service_port": 22
+        }
+    ]
+}
